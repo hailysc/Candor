@@ -1,0 +1,573 @@
+/*colors: whitesmoke, darkslategray*/
+
+.container {
+  width:100%;
+  height: 230px;
+  background-color:#F8F8F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  /*display:flex;
+  justify-content: center;*/
+}
+.mainPage{
+  background-image: url("https://cdn.discordapp.com/attachments/552638302193319936/733388409552240696/image0.jpg")
+}
+.catalogPage{
+  background-color:#F8F8F7;
+}
+header{
+  background-color:#F8F8F7;
+}
+
+nav {
+  display:flex;
+  justify-content: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background: #F8F8F7;
+  border-bottom: solid 5px #43454A;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #43454A;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Sora', sans-serif;
+}
+
+nav a:hover {
+  color: #6561E1;
+  text-decoration: underline;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+h2 :hover {
+  color: #bdbdbd;
+  text-decoration: underline;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.searchbar{
+  width: 600px;
+  height: 140px;
+  font-size: 55px;
+  font-family: 'Sora', sans-serif;
+  border-top: 5px solid #43454A;
+  border-bottom: 5px solid #43454A;
+  border-left: 5px solid #43454A;
+  border-radius: 5px;
+}
+.search-pic{
+  width: 125px;
+  height: 125px;
+}
+.magnifyingGlass{
+  background-color:#F8F8F7;
+  height: 153px;
+  width: 200px;
+  border-top: 5px solid #43454A;
+  border-bottom: 5px solid #43454A;
+  border-right: 5px solid #43454A;
+  border-radius: 5px;
+}
+.magnifyingGlassClick{
+  background-color:#bdbdbd;
+  height: 153px;
+  width: 200px;
+  border-top: 5px solid #43454A;
+  border-bottom: 5px solid #43454A;
+  border-right: 5px solid #43454A;
+  border-radius: 5px;
+ 
+}
+.requestArtist{
+  text-align: center;
+  color:#F8F8F7;
+  font-family: 'Sora', sans-serif;
+
+}
+.catalogRequest{
+  text-align: center;
+  color:#43454A;
+  font-family: 'Sora', sans-serif
+}
+.catalogRequestLink{
+  color: #43454A;
+}
+.catalogRequestLink:hover{
+color: #6561E1;
+}
+::placeholder {
+  font-size: 50\5px;
+  font-family: 'Sora', sans-serif;
+}
+.catalogTitle {
+  font-family: 'Sora', sans-serif;
+  font-size: 28px;
+  color: #6561E1;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+
+.artistLogo {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+figcaption {
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.artistPageContainer {
+  width:100%;
+  height: 60px;
+  background-color:#F8F8F7;
+  display: flex;
+  flex-direction: row;
+}
+
+.navArtistPage {
+  display:flex;
+  justify-content: flex-end;
+}
+
+/* add div class for .parallaxBadBunny here*/
+.parallaxBadBunny {
+  /* added soruce link from image*/
+  background-image: url("https://media.cntraveler.com/photos/5e5999e74cff650008724cc4/master/pass/412A0882%20b%20(1).jpg");
+  height: 520px;
+  /* this is what makes the parallax feature*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.extraSpace {
+  height: 0.2vh;
+}
+
+.parallaxBeyonce {
+  background-image: url("https://adwallpapers.xyz/uploads/posts/70973-beyonce-dress-4k-ultra-hd-wallpaper__celebrity.jpg");
+  height: 520px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.artistTitle {
+  font-family: 'Sora', sans-serif;
+  color: #43454A ;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.artistPage{
+  background: #F8F8F7;
+}
+
+.parallaxDavidBowie {
+  background-image: url("https://i.pinimg.com/originals/e8/a0/97/e8a097c21912e465fa0cc28bf29adf83.png");
+  height: 520px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxLadyGaga {
+  background-image: url("https://www.rollingstone.com/wp-content/uploads/2020/05/Gaga-1.jpg");
+  height: 520px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bio {
+  margin-left: 60px;
+  font-family: 'Sora', sans-serif;
+  width: 65%;
+}
+
+.bioTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+.quickFacts {
+  font-size: 18px;
+}
+
+
+.lgbtTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+
+.lgbtPara1 {
+  font-size: 18px;
+}
+
+.lgbtPara2 {
+  font-size: 18px;
+}
+.lgbtPara3 {
+  font-size: 18px;
+}
+.lgbtPara4 {
+  font-size: 18px;
+}
+.lgbtPara5 {
+  font-size: 18px;
+}
+.femTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+.femPara1 {
+  font-size: 18px;
+}
+.femPara2 {
+  font-size: 18px;
+}
+.femPara3 {
+  font-size: 18px;
+}
+.blmTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+
+.blmPara1 {
+  font-size: 18px;
+}
+
+.blmPara2 {
+  font-size: 18px;
+}
+
+.blmPara3 {
+  font-size: 18px;
+}
+
+.blmPara4 {
+  font-size: 18px;
+}
+
+.artistInformation {
+  float: left;
+  margin-left: 60px;
+  font-family: 'Sora', sans-serif;
+  width: 65%;
+  line-height: 40px;
+}
+
+
+.imagesContainer {
+  width:20%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.description {
+  font-size: 15px;
+}
+.descriptionEdit {
+  display: flex;
+  justify-content: left;
+}
+.image1BadBunny {
+  padding-top: 30px;
+}
+.image8DavidBowie{
+  padding-top: 130px;
+}
+.image7DavidBowie{
+  padding-top: 40px;
+}
+
+.credit1BadBunny {
+  padding-bottom: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit2BadBunny {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.image3BadBunny {
+  padding-top: 20px;
+}
+
+.credit3BadBunny {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+
+
+.credit4BadBunny {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit5BadBunny {
+  padding-bottom: 100px;
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit6BadBunny {
+  display: flex;
+  justify-content: left;
+  font-size: 12px;
+}
+
+.resourcesTitle {
+  font-family: 'Sora', sans-serif;
+  color: #6561E1;
+  font-size: 28px;
+}
+
+.resource1 {
+  font-size: 22px;
+}
+
+.resource2 {
+  font-size: 22px;
+}
+
+.resource3 {
+  font-size: 22px;
+}
+
+.socialMedia {
+  color: #43454A;
+  text-decoration: underline;
+  font-family: 'Sora', sans-serif;
+}
+
+
+.socialMedia:hover {
+  color: #6561E1;
+  text-decoration: underline;
+}
+
+.popularSongs {
+  color: #43454A;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+}
+
+.popularSongs:hover {
+  color: #6561E1;
+}
+
+
+.resourceLink {
+  color: #43454A;
+  text-decoration: underline;
+  font-family: 'Sora', sans-serif;
+}
+
+
+.resourceLink:hover {
+  color: #6561E1;
+  text-decoration: underline;
+}
+
+
+.covidTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+.covidPara1 {
+  font-size: 18px;
+}
+
+.covidPara2 {
+  font-size: 18px;
+}
+.femPara2 {
+  font-size: 18px;
+}
+
+.votingTitle {
+  color: #6561E1;
+  font-size: 28px;
+}
+
+.votingPara1 {
+  font-size: 18px;
+}
+
+.credit1Beyonce {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit2Beyonce {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit3Beyonce {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit4Beyonce {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit5Beyonce {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit1DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit2DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit3DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit4DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit5DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit6DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit7DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit8DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit9DavidBowie {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit1LG {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+.credit2LG {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+  padding-bottom: 170px;
+}
+.credit3LG {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.credit4LG {
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.image1LG {
+  padding-top: 30px;
+}
+
+.image2LG {
+  padding-top: 250px;
+}
